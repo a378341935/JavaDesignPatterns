@@ -4,6 +4,22 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 /**Java设计模式(Java Design Patterns)
+ * 来历：GoF(Gang of Four): Erich Gamma、Richard Helm、Ralph Johnson、 John Vlissides
+ *      《Design Patterns: Elements of Reusable Object-Oriented Software》
+ * 三个大类：创建型模式、结构型模式和行为型模式。
+ * 创建型模式用来处理对象的创建过程；
+ * 结构型模式用来处理类或者对象的组合；
+ * 行为型模式用来对类或对象怎样交互和怎样分配职责进行描述。
+ * 创建型模式用来处理对象的创建过程，主要包含以下5种设计模式：
+ *  工厂方法模式（Factory Method Pattern） 抽象工厂模式（Abstract Factory Pattern）
+ *  建造者模式（Builder Pattern） 原型模式（Prototype Pattern） 单例模式（Singleton Pattern）
+ * 结构型模式用来处理类或者对象的组合，主要包含以下7种设计模式：
+ *  适配器模式（Adapter Pattern） 桥接模式（Bridge Pattern） 组合模式（Composite Pattern）
+ *  装饰者模式（Decorator Pattern） 外观模式（Facade Pattern） 享元模式（Flyweight Pattern） 代理模式（Proxy Pattern）
+ * 行为型模式用来对类或对象怎样交互和怎样分配职责进行描述，主要包含以下11种设计模式：
+ *  责任链模式（Chain of Responsibility Pattern） 命令模式（Command Pattern） 解释器模式（Interpreter Pattern）
+ *  迭代器模式（Iterator Pattern） 中介者模式（Mediator Pattern） 备忘录模式（Memento Pattern） 观察者模式（Observer Pattern）
+ *  状态模式（State Pattern） 策略模式（Strategy Pattern） 模板方法模式（Template Method Pattern） 访问者模式（Visitor Pattern）
  * 六大原则：
  * 1、开闭原则（Open Close Principle）
  * 开闭原则就是说对扩展开放，对修改关闭。在程序需要进行拓展的时候，不能去修改原有的代码，实现一个热插拔的效果。
